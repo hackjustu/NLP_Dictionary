@@ -1,0 +1,1 @@
+This is the sample codes to count the occurrences of each word in an article.
