@@ -1,4 +1,6 @@
-resource/OANC_written_all
+.idea/
+*.iml
+*.iws
+resource/
 out
-.idea
 dictionary.txt
