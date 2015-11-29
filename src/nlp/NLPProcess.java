@@ -11,7 +11,7 @@ public class NLPProcess {
         TreeSet<String> dict = new TreeSet<>();
 
         // Read the raw data from the resource folder
-        try (BufferedReader br = new BufferedReader(new FileReader("resource/OANC_written_all"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("resource/movie_corpus_tokenized"))) {
             // Read the raw data line by line
             String line = br.readLine();
             while (line != null && !line.isEmpty()) {
